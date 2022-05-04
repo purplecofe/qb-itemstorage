@@ -7,8 +7,6 @@
 
 Config = {}
 
-Config = {}
-
 Config.Storage = {
 	[1] = {
 		name = "cigarettebox", 
@@ -26,7 +24,9 @@ Config.Storage = {
 				unique = false,
 				image = "69-brand-pack.png",
 				slot = 1,
-				label = "Cigarette"
+				label = "Cigarette",
+				info = {}, -- if you use tnj-inventory, you will need to add quality = 100 between the brackets
+				-- created = os.time() -- uncomment this line of you are using tnj-inventory
 			}
 		}
 	},
